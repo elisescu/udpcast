@@ -4,6 +4,8 @@
 #ifdef __MINGW32__
 #include <winsock2.h>
 #include <winbase.h>
+#else
+#include <sys/select.h>
 #endif /* __MINGW32__ */
 
 #define prepareConsole udpc_prepareConsole
