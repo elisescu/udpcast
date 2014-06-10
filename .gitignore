@@ -1,0 +1,11 @@
+Makefile
+cmd.html.man
+config.h
+config.log
+config.status
+udp-receiver
+udp-receiver.1
+udp-sender
+udp-sender.1
+*.o
+
